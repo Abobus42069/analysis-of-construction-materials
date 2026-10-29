@@ -1,0 +1,7 @@
+﻿.venv/
+__pycache__/
+*.pyc
+output/
+validation_live/
+html_cache/
+.env
