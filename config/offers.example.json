@@ -1,0 +1,26 @@
+[
+  {
+    "retailer": "demo_retailer",
+    "retailer_sku": "demo-001",
+    "source_url": "https://example.org/products/demo-001",
+    "observed_at": "2026-01-01T12:00:00+03:00",
+    "city": "Москва",
+    "district": null,
+    "store_id": "demo-store-01",
+    "store_address": "Условный пример, не реальное предложение",
+    "coordinates": {"lat": 55.75, "lon": 37.62},
+    "material_id": null,
+    "matching_status": "needs_review",
+    "availability": "unknown",
+    "available_packs": null,
+    "price": "500.00",
+    "currency": "RUB",
+    "vat_included": true,
+    "pack_quantity": "1",
+    "quantity_unit": "can",
+    "minimum_packs": 1,
+    "delivery_price": null,
+    "delivery_destination": null,
+    "evidence": {"note": "Синтетический пример; дата намеренно старая, для сравнения не подходит"}
+  }
+]

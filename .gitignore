@@ -5,3 +5,9 @@ output/
 validation_live/
 html_cache/
 .env
+
+corpus/
+.materials_network/
+*.egg-info/
+build/
+dist/

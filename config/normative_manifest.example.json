@@ -1,0 +1,16 @@
+[
+  {
+    "source": "pravo",
+    "url": "https://publication.pravo.gov.ru/Document/View/0001202102030022",
+    "kind": "normative_document",
+    "metadata": {
+      "document_type": "СанПиН",
+      "designation": "СанПиН 1.2.3685-21",
+      "title": "Гигиенические нормативы и требования к обеспечению безопасности и (или) безвредности для человека факторов среды обитания",
+      "edition": null,
+      "source_role": "official_publication",
+      "scope_review_status": "needs_review",
+      "note": "Пример исходной публикации; не утверждение об актуальности редакции. Доступность текста и изменения требуют проверки."
+    }
+  }
+]

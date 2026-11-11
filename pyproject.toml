@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "construction-materials-pipeline"
+version = "0.2.0"
+description = "Manufacturer evidence and normative document corpus for materials analysis"
+requires-python = ">=3.10"
+dependencies = ["lxml>=5,<7", "pypdf>=5,<7"]
+
+[project.optional-dependencies]
+postgres = ["psycopg[binary]>=3.2,<4"]
+
+[project.scripts]
+materials-pipeline = "materials_pipeline.cli:entrypoint"
+
+[tool.setuptools]
+packages = ["materials_pipeline"]
+py-modules = ["parser"]
+
+[tool.setuptools.package-data]
+materials_pipeline = ["schema.sql"]
